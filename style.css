@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    
+    /* 讓內容垂直居中排列 */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h1 {
+    margin: 10px 0; /* 縮小標題的上下間距 */
+    font-size: 24px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+canvas {
+    background-color: white;
+    border: 5px solid #333;
+    border-radius: 8px; /* 讓角落圓滑一點 */
+    cursor: crosshair;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+p {
+    margin-top: 15px;
+    color: #666;
+}
