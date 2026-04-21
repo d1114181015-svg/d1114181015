@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <title>點擊大挑戰</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Reflex - 終極反應王</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>得分: <span id="score">0</span></h1>
+
+    <div class="ui-panel">
+        得分: <span id="score">0</span>
+    </div>
+
+    <img id="logoImg" src="logo.png" style="display: none;">
+    
     <canvas id="gameCanvas"></canvas>
-    <p>點擊紅色圓球得分！</p>
+
     <script src="script.js"></script>
 </body>
 </html>
